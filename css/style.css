@@ -1,0 +1,157 @@
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+  color: #340514E;
+}
+
+h1{
+  margin: auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.4rem;
+  color: #1b1b2f;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #3f3f44;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #7d5a5a;
+}
+
+.top-container{
+  background-color: #ffe277;
+  position: relative;
+  border-top: dotted #faf2f2 6px;
+  border-bottom: dotted #faf2f2 6px;
+}
+
+.middle-container{
+  margin: 30px 0 30px 0;
+}
+
+.bottom-container{
+  background-color: #ffe277;
+  padding: 50px 0 20px;
+}
+
+
+.ballet{
+  top: 40px;
+  width: 3%;
+  height: 3%;
+  margin: auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 160px;
+  bottom: 300px;
+}
+
+.adobe{
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.story{
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.introduce{
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+}
+
+hr{
+  border: dotted #ffb367 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.contact{
+  font-size: 1rem;
+}
+
+.btn {
+  background-color:#ffb367;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:#ffd31d;
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.intro{
+  font-size: 1rem;
+  margin-top: -5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+a{
+  color: #fcbf1e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffffff;
+}
+
+.copyright{
+  color: #ffb367;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+.code-story{
+  margin-top: -10px;
+}
+
+.code-adobe{
+  margin-top: -10px;
+}
